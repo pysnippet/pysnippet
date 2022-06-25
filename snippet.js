@@ -1,14 +1,13 @@
-const link = document.createElement("link");
-link.type = "text/css";
-link.rel = "stylesheet";
-link.href = "https://pyscript.net/alpha/pyscript.css";
-document.body.appendChild(link);
+const elements = [
+    ["link", {type: "text/css", rel: "stylesheet", href: "https://pyscript.net/alpha/pyscript.css"}],
+    ["script", {defer: "true", type: "text/javascript", src: "https://pyscript.net/alpha/pyscript.js"}],
+];
 
-const script = document.createElement("script");
-script.defer = true;
-script.type = "text/javascript";
-script.src = "https://pyscript.net/alpha/pyscript.js";
-document.body.appendChild(script);
+for (let [tagName, attributes] of elements) {
+    let element = document.createElement(tagName);
+    Object.entries(attributes).forEach(args => element.setAttribute(...args));
+    document.body.appendChild(element);
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     const pyScript = document.createElement("py-script");
