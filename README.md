@@ -1,6 +1,8 @@
+{::nomarkdown}
 <h1 align="center">
     <span style="color: #bcbbbb;">Py</span><span style="color: #f48024;">Snippet</span>
 </h1>
+{:/}
 
 <div align="center">
 The plugin allows demonstrating Python snippets at StackOverflow.
@@ -20,6 +22,7 @@ The plugin allows demonstrating Python snippets at StackOverflow.
 
 Python is one of the most [popular tags](https://stackoverflow.com/tags?tab=popular) on StackOverflow. PySnippet is a JavaScript plugin that allows using Python snippets on StackOverflow, adding just one line of code. The plugin uses PyScript to run a python code in the browser. Using the PySnippet is effective if you want to show an output of simple things that primarily use neither OS nor drivers.
 
+{::nomarkdown}
 <h2>
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path opacity="0.3" d="M18.4 5.59998C18.7766 5.9772 18.9881 6.48846 18.9881 7.02148C18.9881 7.55451 18.7766 8.06577 18.4 8.44299L14.843 12C14.466 12.377 13.9547 12.5887 13.4215 12.5887C12.8883 12.5887 12.377 12.377 12 12C11.623 11.623 11.4112 11.1117 11.4112 10.5785C11.4112 10.0453 11.623 9.53399 12 9.15698L15.553 5.604C15.9302 5.22741 16.4415 5.01587 16.9745 5.01587C17.5075 5.01587 18.0188 5.22741 18.396 5.604L18.4 5.59998ZM20.528 3.47205C20.0614 3.00535 19.5074 2.63503 18.8977 2.38245C18.288 2.12987 17.6344 1.99988 16.9745 1.99988C16.3145 1.99988 15.661 2.12987 15.0513 2.38245C14.4416 2.63503 13.8876 3.00535 13.421 3.47205L9.86801 7.02502C9.40136 7.49168 9.03118 8.04568 8.77863 8.6554C8.52608 9.26511 8.39609 9.91855 8.39609 10.5785C8.39609 11.2384 8.52608 11.8919 8.77863 12.5016C9.03118 13.1113 9.40136 13.6653 9.86801 14.132C10.3347 14.5986 10.8886 14.9688 11.4984 15.2213C12.1081 15.4739 12.7616 15.6039 13.4215 15.6039C14.0815 15.6039 14.7349 15.4739 15.3446 15.2213C15.9543 14.9688 16.5084 14.5986 16.975 14.132L20.528 10.579C20.9947 10.1124 21.3649 9.55844 21.6175 8.94873C21.8701 8.33902 22.0001 7.68547 22.0001 7.02551C22.0001 6.36555 21.8701 5.71201 21.6175 5.10229C21.3649 4.49258 20.9947 3.93867 20.528 3.47205Z" fill="white"/>
@@ -27,6 +30,7 @@ Python is one of the most [popular tags](https://stackoverflow.com/tags?tab=popu
     </svg>
     CDN
 </h2>
+{:/}
 
 The sources have been published using the GitHub CDN of the <a href="https://www.jsdelivr.com/">jsdelivr</a>.
 ```text
@@ -36,6 +40,7 @@ https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js
 https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js
 ```
 
+{::nomarkdown}
 <h2>
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path d="M16.95 18.9688C16.75 18.9688 16.55 18.8688 16.35 18.7688C15.85 18.4688 15.75 17.8688 16.05 17.3688L19.65 11.9688L16.05 6.56876C15.75 6.06876 15.85 5.46873 16.35 5.16873C16.85 4.86873 17.45 4.96878 17.75 5.46878L21.75 11.4688C21.95 11.7688 21.95 12.2688 21.75 12.5688L17.75 18.5688C17.55 18.7688 17.25 18.9688 16.95 18.9688ZM7.55001 18.7688C8.05001 18.4688 8.15 17.8688 7.85 17.3688L4.25001 11.9688L7.85 6.56876C8.15 6.06876 8.05001 5.46873 7.55001 5.16873C7.05001 4.86873 6.45 4.96878 6.15 5.46878L2.15 11.4688C1.95 11.7688 1.95 12.2688 2.15 12.5688L6.15 18.5688C6.35 18.8688 6.65 18.9688 6.95 18.9688C7.15 18.9688 7.35001 18.8688 7.55001 18.7688Z" fill="#f48225"/>
@@ -43,24 +48,13 @@ https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js
     </svg>
     Usage
 </h2>
+{:/}
 
  1. Add the plugin as an external library in the `HTML` section.
     ```html
     <script src="https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js"></script>
     ```
  2. Paste your Python code into the `JavaScript` section.
-    ```python
-    arr = [['31', '1'], '32', ['8', '16'], ['1', '3', '12'], ['4', '12'], '32', ['1', '3', '12'], ['4', '12'], '32', ['30', '1', '1']]
-    
-    def extract(array):
-        for item in array:
-            if type(item) in [set, list, tuple]:
-                yield from extract(item)
-                continue
-            yield item
-    
-    print(list(extract(arr)))
-    ```
  3. Make sure that you have unchecked all snippet options before saving.
     - [ ] Show console
     - [ ] Use BabelJS / ES2015
