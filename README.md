@@ -18,7 +18,7 @@
 
 ---
 
-Python is one of the most [popular tags](https://stackoverflow.com/tags?tab=popular) on StackOverflow. PySnippet is a JavaScript plugin that allows using Python snippets on StackOverflow, adding just one line of code. The plugin uses PyScript to run a python code in the browser. Using the PySnippet is effective if you want to show an output of simple things that primarily use neither OS nor drivers.
+PySnippet is a JavaScript plugin that allows using Python snippets on StackOverflow, adding just one line of code. The plugin uses PyScript to run a python code in the browser. Using the PySnippet is effective if you want to show an output of simple things that primarily use neither OS nor drivers.
 
 ## ![](https://user-images.githubusercontent.com/46633744/175871148-93b50dba-a4c4-4225-a824-09f787c97e9e.svg) CDN
 
@@ -37,7 +37,7 @@ https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js
     <script src="https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js"></script>
     ```
  2. Paste your Python code into the `JavaScript` section.
- 3. Make sure that you have unchecked all snippet options before saving.
+ 3. Uncheck the "Show console" checkbox to hide the JavaScript console. The states of rest checkboxes do not matter and depend on your choice.
     - [ ] Show console
     - [ ] Use BabelJS / ES2015
     - [ ] Hide snippet by default
