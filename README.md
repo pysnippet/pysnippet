@@ -1,6 +1,4 @@
-<h1 align="center">
-    <span style="color: #bcbbbb;">Py</span><span style="color: #f48024;">Snippet</span>
-</h1>
+![b3W8weUD](https://user-images.githubusercontent.com/46633744/175888700-bd690caf-312b-4340-824e-cc3808ae3b80.svg)
 
 <div align="center">
 The plugin allows demonstrating Python snippets at StackOverflow.
