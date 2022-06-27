@@ -1,9 +1,9 @@
-<h1 align="center">
-    <span style="color: #bcbbbb;">Py</span><span style="color: #f48024;">Snippet</span>
-</h1>
+<p align="center">
+    <img alt="" src="https://user-images.githubusercontent.com/46633744/175888700-bd690caf-312b-4340-824e-cc3808ae3b80.svg">
+    The plugin allows demonstrating Python snippets at StackOverflow.
+</p>
 
 <div align="center">
-The plugin allows demonstrating Python snippets at StackOverflow.
 
 ![][stackoverflow-tag] [![][snippet-js-size]][snippet-js-cdn] [![][snippet-min-js-size]][snippet-min-js-cdn] [![][license-tag]][license-url]
 
@@ -20,7 +20,7 @@ The plugin allows demonstrating Python snippets at StackOverflow.
 
 Python is one of the most [popular tags](https://stackoverflow.com/tags?tab=popular) on StackOverflow. PySnippet is a JavaScript plugin that allows using Python snippets on StackOverflow, adding just one line of code. The plugin uses PyScript to run a python code in the browser. Using the PySnippet is effective if you want to show an output of simple things that primarily use neither OS nor drivers.
 
-## ![RZPBIUM5](https://user-images.githubusercontent.com/46633744/175871148-93b50dba-a4c4-4225-a824-09f787c97e9e.svg) CDN
+## ![](https://user-images.githubusercontent.com/46633744/175871148-93b50dba-a4c4-4225-a824-09f787c97e9e.svg) CDN
 
 The sources have been published using the GitHub CDN of the <a href="https://www.jsdelivr.com/">jsdelivr</a>.
 ```text
@@ -30,7 +30,7 @@ https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js
 https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js
 ```
 
-## ![w5f54vgX](https://user-images.githubusercontent.com/46633744/175871486-2b21eeaa-7789-4ae0-afe9-0c6b516a5fa7.svg) Usage
+## ![](https://user-images.githubusercontent.com/46633744/175871486-2b21eeaa-7789-4ae0-afe9-0c6b516a5fa7.svg) Usage
 
  1. Add the plugin as an external library in the `HTML` section.
     ```html
