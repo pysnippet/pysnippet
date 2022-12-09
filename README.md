@@ -1,28 +1,18 @@
-<p align="center">
-    <img alt="" src="https://user-images.githubusercontent.com/46633744/175888700-bd690caf-312b-4340-824e-cc3808ae3b80.svg">
-    The plugin allows demonstrating Python snippets at StackOverflow.
-</p>
+# PySnippet <img src="https://github.com/pysnippet.png" align="right" height="64" />
 
-<div align="center">
+[![StackOverflow](https://img.shields.io/badge/StackOverflow-Preview-blue?logo=stack-overflow&logoColor=white)](https://meta.stackoverflow.com/questions/400919/is-it-possible-to-have-python-code-snippets-in-stack-overflow/418977#418977)
+[![snippet.js](https://img.badgesize.io/https:/raw.githubusercontent.com/pysnippet/pysnippet/latest/snippet.js?label=snippet.js)](https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js)
+[![snippet.min.js](https://img.badgesize.io/https:/raw.githubusercontent.com/pysnippet/pysnippet/latest/snippet.min.js?label=snippet.min.js)](https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/pysnippet/pysnippet/blob/latest/LICENSE)
 
-![][stackoverflow-tag] [![][snippet-js-size]][snippet-js-cdn] [![][snippet-min-js-size]][snippet-min-js-cdn] [![][license-tag]][license-url]
-
-[stackoverflow-tag]: https://img.shields.io/badge/StackOverflow-plugin-blue?logo=stack-overflow&logoColor=white
-[snippet-js-size]: https://img.badgesize.io/https:/raw.githubusercontent.com/pysnippet/pysnippet/latest/snippet.js?label=snippet.js
-[snippet-min-js-size]: https://img.badgesize.io/https:/raw.githubusercontent.com/pysnippet/pysnippet/latest/snippet.min.js?label=snippet.min.js
-[snippet-js-cdn]: https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js
-[snippet-min-js-cdn]: https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js
-[license-tag]: https://img.shields.io/badge/License-Apache_2.0-blue.svg
-[license-url]: https://opensource.org/licenses/Apache-2.0
-</div>
-
----
+## What is PySnippet?
 
 PySnippet is a JavaScript plugin that allows using Python snippets on StackOverflow, adding just one line of code. The plugin uses PyScript to run a python code in the browser. Using the PySnippet is effective if you want to show an output of simple things that primarily use neither OS nor drivers.
 
-## ![](https://user-images.githubusercontent.com/46633744/175871148-93b50dba-a4c4-4225-a824-09f787c97e9e.svg) CDN
+## ![](https://user-images.githubusercontent.com/44609997/206767057-f1080a93-cfec-4f43-bfb0-7ffe1dc135ec.svg) Open CDN
 
-The sources have been published using the GitHub CDN of the <a href="https://www.jsdelivr.com/">jsdelivr</a>.
+The CDN is powered by [jsdelivr](https://www.jsdelivr.com/?docs=gh).
+
 ```text
 https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js
 ```
@@ -30,7 +20,7 @@ https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js
 https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js
 ```
 
-## ![](https://user-images.githubusercontent.com/46633744/175871486-2b21eeaa-7789-4ae0-afe9-0c6b516a5fa7.svg) Usage
+## ![](https://user-images.githubusercontent.com/44609997/206767090-c8f31371-3fc2-4920-a621-e44a05139733.svg) Usage
 
  1. Add the plugin as an external library in the `HTML` section.
     ```html
@@ -41,3 +31,7 @@ https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js
     - [ ] Show console
     - [ ] Use BabelJS / ES2015
     - [ ] Hide snippet by default
+
+## License
+
+Copyright (C) 2022 Artyom Vancyan. [Apache 2.0](LICENSE)
