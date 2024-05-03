@@ -2,8 +2,8 @@
 
 [![StackOverflow](https://img.shields.io/badge/StackOverflow-Preview-blue?logo=stack-overflow&logoColor=white)](https://meta.stackoverflow.com/questions/400919/is-it-possible-to-have-python-code-snippets-in-stack-overflow/418977#418977)
 [![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](https://github.com/pysnippet/pysnippet/blob/latest/LICENSE)
-[![snippet.js](https://img.badgesize.io/https:/raw.githubusercontent.com/pysnippet/pysnippet/latest/snippet.js?label=snippet.js)](https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js)
-[![snippet.min.js](https://img.badgesize.io/https:/raw.githubusercontent.com/pysnippet/pysnippet/latest/snippet.min.js?label=snippet.min.js)](https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js)
+[![snippet.js](https://img.shields.io/github/size/pysnippet/pysnippet/snippet.js?label=snippet.js)](https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js)
+[![snippet.min.js](https://img.shields.io/github/size/pysnippet/pysnippet/snippet.min.js?label=snippet.min.js)](https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js)
 
 PySnippet is a JavaScript plugin that allows using Python snippets on StackOverflow, adding just one line of code. The
 plugin uses PyScript to run a python code in the browser. Using the PySnippet is effective if you want to show an output
