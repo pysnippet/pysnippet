@@ -14,11 +14,11 @@ of simple things that primarily use neither OS nor drivers.
 The CDN is powered by [jsdelivr](https://www.jsdelivr.com/?docs=gh).
 
 ```text
-https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js
+https://cdn.jsdelivr.net/gh/pysnippet/pysnippet/snippet.js
 ```
 
 ```text
-https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js
+https://cdn.jsdelivr.net/gh/pysnippet/pysnippet/snippet.min.js
 ```
 
 ## ![](https://user-images.githubusercontent.com/44609997/206767090-c8f31371-3fc2-4920-a621-e44a05139733.svg) Usage
