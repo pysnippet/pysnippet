@@ -6,8 +6,8 @@
 [![snippet.min.js](https://img.shields.io/github/size/pysnippet/pysnippet/snippet.min.js?label=snippet.min.js)](https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.min.js)
 
 PySnippet is a JavaScript plugin that allows using Python snippets on StackOverflow, adding just one line of code. The
-plugin uses PyScript to run a python code in the browser. Using the PySnippet is effective if you want to show an output
-of simple things that primarily use neither OS nor drivers.
+plugin uses PyScript to run Python code in the browser. Using the PySnippet is effective if you want to show an output
+of simple things that primarily use neither the OS nor drivers.
 
 ## ![](https://user-images.githubusercontent.com/44609997/206767057-f1080a93-cfec-4f43-bfb0-7ffe1dc135ec.svg) Open CDN
 
@@ -25,7 +25,7 @@ https://cdn.jsdelivr.net/gh/pysnippet/pysnippet/snippet.min.js
 
 1. Add the plugin as an external library in the `HTML` section.
    ```html
-   <script src="https://cdn.jsdelivr.net/gh/pysnippet/pysnippet@latest/snippet.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/pysnippet/pysnippet/snippet.js"></script>
    ```
 2. Paste your Python code into the `JavaScript` section.
 3. Uncheck the "Show console" checkbox to hide the JavaScript console. The states of rest checkboxes do not matter and
